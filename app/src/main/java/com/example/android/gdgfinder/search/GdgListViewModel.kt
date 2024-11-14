@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 import java.io.IOException
 
 
-class GdgListViewModel: ViewModel() {
+class  GdgListViewModel: ViewModel() {
 
     private val repository = GdgChapterRepository(GdgApi.retrofitService)
 
